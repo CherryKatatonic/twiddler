@@ -1,0 +1,256 @@
+.col-12 { width: 99%; }
+.col-11 { width: 91%; }
+.col-10 { width: 83%; }
+.col-9 { width: 74%; }
+.col-8 { width: 66%; }
+.col-7 { width: 58%; }
+.col-6 { width: 49%; }
+.col-5 { width: 41%; }
+.col-4 { width: 33%; }
+.col-3 { width: 24%; }
+.col-2 { width: 16%; }
+.col-1 { width: 8%; }
+
+html, body {
+    font-family: "Segoe UI",Arial,sans-serif;
+    background: #e6ecf0;
+    color: #14171a;
+}
+
+.nav {
+    background: #fff;
+}
+
+.navbar-top {
+    width: 100%;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 5px 0px #808080b8;
+}
+
+#nav-head {
+    color: #93469ec9;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.nav>div {
+    display: inline-block;
+    padding: 0px;
+    margin: auto;
+    position: relative;
+    vertical-align: middle;
+    height: 94%;
+    text-align: center;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #a93fc3c4;
+    cursor: pointer;
+}
+
+.img-purple {
+   filter: hue-rotate(180deg);
+}
+
+.nav>div>a {
+    position: relative;
+    text-decoration: none;
+    padding: 7px 15px;
+    font-weight: bold;
+    color: #912fa9c4;
+}
+
+.header-icon {
+    width: 30px;
+    padding-top: 9px;
+    position: relative;
+}
+
+.icon {
+    vertical-align: bottom;
+}
+
+.after-icon {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    margin-top: 47px;
+}
+
+.stream {
+    background-color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#get-new {
+    padding: 10px;
+}
+
+.twiddle {
+    padding: 24px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    vertical-align: top;
+    position: relative;
+    min-height: 1px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 1px 0px grey inset;
+}
+
+.head-block {
+    border-bottom: 3px inset #aa5fbdc9;
+    background-color: #aa5fbdf5;
+    border: 2px outset #80008038;
+    color: #fff;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 28px;
+    border-radius: 9px;
+    cursor: default;
+    text-align: center;
+    padding: 24px;
+}
+
+#filter {
+    color: #aa5fbdf5;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 32px;
+    border-radius: 9px;
+    cursor: default;
+    text-align: center;
+    padding: 24px;
+}
+
+div.author {
+    text-align: left;
+    color: #912fa9c4;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+a.author {
+    color: #aa5fbd;
+    text-decoration: none;
+}
+
+a.hashtag {
+    color: #aa5fbd;
+    display: inline;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content {
+    text-align: left;
+    font-weight: bold;
+    color: #5d5c5c;
+    padding-left: 1%;
+}
+
+.grayed {
+    color: #5a5a5ab5;
+    font-size: 20px;
+    background-color: #e6ecf0;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.grayed-sm {
+    color: #abababe0;
+    font-size: 12px;
+    display: inline;
+    padding-left: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.btn {
+    color: #93469ec9;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    background-color: #f9e5ff;
+    border: 2px outset #ad65c07a;
+}
+
+.btn-slim {
+    padding: 9px;
+    font-size: 16px;
+}
+
+.btn-sm {
+    padding: 8px;
+    font-size: 15px;
+    display: inline;
+}
+
+input {
+    display: inline-block;
+    color: #9343a9;
+    border: 2px outset #80008038;
+    font-weight: bold;
+    padding: 9px;
+    font-size: 16px;
+    margin: 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 2px outset #80008085;
+    outline: none;
+}
+
+#form-twiddle {
+    border: 3px outset rgba(128, 0, 128, 0.2);
+}
+
+.btn-block-author:hover {
+    border: 2px inset #bc81cb9e;
+    cursor: pointer;
+}
+
+.btn-block-tag:hover {
+    border: 2px inset #8080807d;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid #66187947;
+    cursor: pointer;
+    background-color: #ad65c0;
+    color: white;
+}
